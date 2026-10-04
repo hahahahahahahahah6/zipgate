@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zipgate"
+version = "0.1.0"
+description = "Audit wheels and zips for malformed ZIP64 structures (uv#19440, wheel#692)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "hao li", email = "haoli5933@gmail.com" }]
+requires-python = ">=3.9"
+keywords = ["zip", "zip64", "wheel", "packaging", "audit"]
+
+[project.scripts]
+zipgate = "zipgate.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/hahahahahahahahah6/zipgate"
+Repository = "https://github.com/hahahahahahahahah6/zipgate"
+
+[tool.setuptools.packages.find]
+where = ["src"]

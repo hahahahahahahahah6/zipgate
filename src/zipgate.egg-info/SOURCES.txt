@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/zipgate/__init__.py
+src/zipgate/checker.py
+src/zipgate/cli.py
+src/zipgate.egg-info/PKG-INFO
+src/zipgate.egg-info/SOURCES.txt
+src/zipgate.egg-info/dependency_links.txt
+src/zipgate.egg-info/entry_points.txt
+src/zipgate.egg-info/top_level.txt
+tests/test_checker.py

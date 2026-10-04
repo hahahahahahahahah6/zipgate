@@ -1,0 +1,2 @@
+[console_scripts]
+zipgate = zipgate.cli:main

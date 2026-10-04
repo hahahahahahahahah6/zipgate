@@ -1,3 +1,17 @@
+Metadata-Version: 2.4
+Name: zipgate
+Version: 0.1.0
+Summary: Audit wheels and zips for malformed ZIP64 structures (uv#19440, wheel#692)
+Author-email: hao li <haoli5933@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/hahahahahahahahah6/zipgate
+Project-URL: Repository, https://github.com/hahahahahahahahah6/zipgate
+Keywords: zip,zip64,wheel,packaging,audit
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # zipgate
 
 Audit wheels and zips for malformed ZIP64 structures — before your installer chokes on them.
